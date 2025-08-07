@@ -3,12 +3,17 @@
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { Hero } from '@acme/ui';
 
 export function App() {
   return (
     <div>
+      <Hero
+        title="Welcmoe to our Demo"
+        subtitle="Build something amazing today"
+        cta="Get Started"
+      />
       <NxWelcome title="@acme/demo" />
-
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
